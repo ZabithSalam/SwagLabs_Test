@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SwagLabsTests" class="navigator-link">
+              <span class="suite-name border-passed">SwagLabsTests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SwagLabsTests" class="navigator-link ">
+                    <span>C:\Users\HP\eclipse-workspace\SwagLabsTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SwagLabsTests" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SwagLabsTests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SwagLabsTests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SwagLabsTests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SwagLabsTests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SwagLabsTests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SwagLabsTests" class="hide-methods passed suite-SwagLabsTests"> (hide)</a> <!-- hide-methods passed suite-SwagLabsTests -->
+                      <a href="#" panel-name="suite-SwagLabsTests" class="show-methods passed suite-SwagLabsTests"> (show)</a> <!-- show-methods passed suite-SwagLabsTests -->
+                    </span>
+                    <div class="method-list-content passed suite-SwagLabsTests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLabsTests" title="com.swagLabsTest.testcases.LoginTest" class="method navigator-link" hash-for-method="testLogin(, secret_sauce, Epic sadface: Username is required, invalid)">testLogin(, secret_sauce, Epic sadface: Username is required, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLabsTests" title="com.swagLabsTest.testcases.LoginTest" class="method navigator-link" hash-for-method="testLogin(standard_user123, secret_sauce, Epic sadface: Username and password do not match any user in this se...)">testLogin(standard_user123, secret_sauce, Epic sadface: Username and password do not match any user in this se...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLabsTests" title="com.swagLabsTest.testcases.LoginTest" class="method navigator-link" hash-for-method="testLogin(standard_user, secret_sauce, Products, valid)">testLogin(standard_user, secret_sauce, Products, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLabsTests" title="com.swagLabsTest.testcases.LoginTest" class="method navigator-link" hash-for-method="testLogin(standar d_user124, secret_sauce, Epic sadface: Username and password do not match any user in this s...)">testLogin(standar d_user124, secret_sauce, Epic sadface: Username and password do not match any user in this s...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLabsTests" title="com.swagLabsTest.testcases.LoginTest" class="method navigator-link" hash-for-method="testLogin(, , Epic sadface: Username is required, invalid)">testLogin(, , Epic sadface: Username is required, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLabsTests" title="com.swagLabsTest.testcases.LoginTest" class="method navigator-link" hash-for-method="testLogin(standard_user, , Epic sadface: Password is required, invalid)">testLogin(standard_user, , Epic sadface: Password is required, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SwagLabsTests" title="com.swagLabsTest.testcases.LoginTest" class="method navigator-link" hash-for-method="verifyIslogoDisplayed">verifyIslogoDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SwagLabsTests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SwagLabsTests" class="panel SwagLabsTests">
+          <div class="suite-SwagLabsTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swagLabsTest.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, secret_sauce, Epic sadface: Username is required, invalid)">
+                  </a> <!-- testLogin(, secret_sauce, Epic sadface: Username is required, invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(,secret_sauce,Epic sadface: Username is required,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(standard_user123, secret_sauce, Epic sadface: Username and password do not match any user in this se...)">
+                  </a> <!-- testLogin(standard_user123, secret_sauce, Epic sadface: Username and password do not match any user in this se...) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(standard_user123,secret_sauce,Epic sadface: Username and password do not match any user in this service,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(standard_user, secret_sauce, Products, valid)">
+                  </a> <!-- testLogin(standard_user, secret_sauce, Products, valid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(standard_user,secret_sauce,Products,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(standar d_user124, secret_sauce, Epic sadface: Username and password do not match any user in this s...)">
+                  </a> <!-- testLogin(standar d_user124, secret_sauce, Epic sadface: Username and password do not match any user in this s...) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(standar d_user124,secret_sauce,Epic sadface: Username and password do not match any user in this service,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(, , Epic sadface: Username is required, invalid)">
+                  </a> <!-- testLogin(, , Epic sadface: Username is required, invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(,,Epic sadface: Username is required,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(standard_user, , Epic sadface: Password is required, invalid)">
+                  </a> <!-- testLogin(standard_user, , Epic sadface: Password is required, invalid) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(standard_user,,Epic sadface: Password is required,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIslogoDisplayed">
+                  </a> <!-- verifyIslogoDisplayed -->
+                  <span class="method-name">verifyIslogoDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SwagLabsTests-class-passed -->
+        </div> <!-- panel SwagLabsTests -->
+        <div panel-name="test-xml-SwagLabsTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\eclipse-workspace\SwagLabsTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SwagLabsTests&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.swagLabsTest.utility.ITestListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;MyTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.swagLabsTest.testcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyTest --&gt;
+&lt;/suite&gt; &lt;!-- SwagLabsTests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SwagLabsTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SwagLabsTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">MyTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SwagLabsTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SwagLabsTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SwagLabsTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SwagLabsTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SwagLabsTests');
+function tableData_SwagLabsTests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testLogin')
+data.setCell(0, 2, 'com.swagLabsTest.testcases.LoginTest')
+data.setCell(0, 3, 422);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogin')
+data.setCell(1, 2, 'com.swagLabsTest.testcases.LoginTest')
+data.setCell(1, 3, 398);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLogin')
+data.setCell(2, 2, 'com.swagLabsTest.testcases.LoginTest')
+data.setCell(2, 3, 385);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogin')
+data.setCell(3, 2, 'com.swagLabsTest.testcases.LoginTest')
+data.setCell(3, 3, 376);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLogin')
+data.setCell(4, 2, 'com.swagLabsTest.testcases.LoginTest')
+data.setCell(4, 3, 337);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLogin')
+data.setCell(5, 2, 'com.swagLabsTest.testcases.LoginTest')
+data.setCell(5, 3, 316);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyIslogoDisplayed')
+data.setCell(6, 2, 'com.swagLabsTest.testcases.LoginTest')
+data.setCell(6, 3, 76);
+window.suiteTableData['SwagLabsTests']= { tableData: data, tableDiv: 'times-div-SwagLabsTests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-SwagLabsTests">
+              </div> <!-- times-div-SwagLabsTests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SwagLabsTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SwagLabsTests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SwagLabsTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SwagLabsTests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swagLabsTest.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, , Epic sadface: Username is required, invalid)</span>
+                <span class="method-start">10087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(, secret_sauce, Epic sadface: Username is required, invalid)</span>
+                <span class="method-start">10524 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(standard_user, , Epic sadface: Password is required, invalid)</span>
+                <span class="method-start">10865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(standard_user123, secret_sauce, Epic sadface: Username and password do not match any user in this se...)</span>
+                <span class="method-start">11185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(standar d_user124, secret_sauce, Epic sadface: Username and password do not match any user in this s...)</span>
+                <span class="method-start">11573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(standard_user, secret_sauce, Products, valid)</span>
+                <span class="method-start">11974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIslogoDisplayed</span>
+                <span class="method-start">12368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12448 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
