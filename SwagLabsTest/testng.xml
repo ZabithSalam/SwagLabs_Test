@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabsTests">
+	<listeners>
+		<listener
+			class-name="com.swagLabsTest.utility.ITestListenerClass"></listener>
+	</listeners>
+	<test thread-count="5" name="MyTest">
+		<classes>
+			<class name="com.swagLabsTest.testcases.LoginTest" />
+			<class name="com.swagLabsTest.testcases.testProduct" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
